@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import "./App.css";
-import Places from "./components/places.jsx";
+import Home from "./components/Home.jsx";
 import NotFound from "./components/notFound";
 import LoginForm from "./components/loginForm";
 import RegisterForm from "./components/registerForm.jsx";
@@ -17,7 +17,7 @@ class App extends Component {
           <Route path="/register" component={RegisterForm} />
           <Route path="/places/explore" component={DisplayPlace} />
           <Route path="/places/:id" component={NewPlaceForm} />
-          <Route path="/home" component={Places} />
+          <Route path="/home" component={Home} />
           <Route path="/not-found" component={NotFound} />
           <Redirect from="/" exact to="/home" />
           <Redirect to="/not-found" />
