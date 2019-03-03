@@ -20,7 +20,7 @@ class TableHeader extends Component {
   };
 
   renderStyle = column => {
-    return column.path === "title"
+    return column.path === "name"
       ? { minWidth: 250, cursor: "pointer" }
       : { minWidth: 95, cursor: "pointer" };
   };
