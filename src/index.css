@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0 0 0 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.loginFormWrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  max-width: 50%;
+  min-height: 340px;
+  border: 2px ridge rgba(173, 171, 192, 0.425);
+}
+
+.loginForm {
+  margin-left: 5%;
+  max-width: 90%;
+}
+
+.registerFormWrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  max-width: 50%;
+  min-height: 390px;
+  border: 2px ridge rgba(173, 171, 192, 0.425);
+}
+
+.registerForm {
+  margin-left: 5%;
+  max-width: 90%;
+}
+
+.newPlaceFormWrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  max-width: 70%;
+  min-height: 450px;
+  border: 2px ridge rgba(173, 171, 192, 0.425);
+}
+
+.infoText {
+  position: absolute;
+  height: 550px;
+  width: 100%;
+  background-color: white;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.infoText.show {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0.9;
+  visibility: visible;
+}
+
+.infoText.hide {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+#newPlaceForm {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 75%;
+  max-width: 75%;
+}
+
+#formTextHeader {
+  margin-top: 20px;
+}
+
+#sumbitBtn {
+  margin-bottom: 20px;
+}
+
+#formTextSmall {
+  margin-bottom: 10px;
+}
+
+#header {
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#newPlaceHeader {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#columnAlignCenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#sumbitBtn-newPlaceForm {
+  margin-top: 15px;
+}
+
+#innerInfoText {
+  max-width: 1080px;
+  height: 550px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  text-align: center;
+  font-size: 22px;
+  margin: auto 10px auto 10px;
+}
